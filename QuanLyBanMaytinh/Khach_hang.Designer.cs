@@ -56,6 +56,7 @@ namespace QuanLyBanMaytinh
             this.gdvKhachhang.RowTemplate.Height = 24;
             this.gdvKhachhang.Size = new System.Drawing.Size(795, 220);
             this.gdvKhachhang.TabIndex = 28;
+            this.gdvKhachhang.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gdvKhachhang_CellClick);
             // 
             // txtDienthoai
             // 
@@ -154,6 +155,7 @@ namespace QuanLyBanMaytinh
             this.btnLammoi.TabIndex = 75;
             this.btnLammoi.Text = "Làm mới";
             this.btnLammoi.UseVisualStyleBackColor = false;
+            this.btnLammoi.Click += new System.EventHandler(this.btnLammoi_Click);
             // 
             // btnXoa
             // 
@@ -165,6 +167,7 @@ namespace QuanLyBanMaytinh
             this.btnXoa.TabIndex = 76;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnSua
             // 
@@ -176,6 +179,7 @@ namespace QuanLyBanMaytinh
             this.btnSua.TabIndex = 77;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnThem
             // 
@@ -187,6 +191,7 @@ namespace QuanLyBanMaytinh
             this.btnThem.TabIndex = 78;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // Khach_hang
             // 

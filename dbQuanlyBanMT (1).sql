@@ -169,6 +169,9 @@ VALUES  (234233, N'Nguyễn Văn Tùng ', N'320 Đường Thành - Hà Nội', N
 		(911111, N'Tống Văn Tạo', N'Văn Giang - Hưng Yên', N'0369404933'),
 		(932332, N'Nguyễn Danh Tú', N'Chương Mỹ - Hà Nội', N'0369404844')
 
+
+		-- PROCE
+--NHÂN VIÊN
 go
 create proc getAllNhanVien
 as
@@ -224,3 +227,54 @@ begin
 	WHERE iMaNV = @iMaNV;
 end
 go
+
+--KHÁCH HÀNG
+go
+create proc getAllKhachHang
+as
+begin
+	select [iMaKH],[sTenKH],[sDiachi],[sDienthoai]
+	from [dbo].[tblKhachHang];
+end
+go
+
+create proc insertKhachHang(
+	@iMaKH int,
+	@sTenKH nvarchar(50),
+	@sDiachi nvarchar(50) ,
+	@sDienthoai nvarchar(50)
+)
+as
+begin
+	insert into [dbo].[tblKhachHang]([iMaKH],[sTenKH],[sDiachi],[sDienthoai])
+	values(@iMaKH ,@sTenKH ,@sDiachi  ,@sDienthoai  )
+end
+
+go
+create proc DeleteKhachHang
+@maKH int
+as
+begin
+	DELETE FROM tblKhachHang WHERE iMaKH = @maKH
+end
+go
+
+create proc UpdateKhachHang(
+	@iMaKH int,
+	@sTenKH nvarchar(50),
+	@sDiachi nvarchar(50) ,
+	@sDienthoai nvarchar(50))
+as
+begin
+	UPDATE tblKhachHang
+	SET 
+	iMaKH = @iMaKH,
+	sTenKH = @sTenKH,
+	sDiachi = @sDiachi,
+	sDienthoai = @sDienthoai
+	WHERE iMaKH = @iMaKH;
+end
+go
+
+--NHÓM HÀNG
+--NHÀ CUNG CẤP
