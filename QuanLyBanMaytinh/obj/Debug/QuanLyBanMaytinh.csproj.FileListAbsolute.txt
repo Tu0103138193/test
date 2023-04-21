@@ -18,3 +18,23 @@ C:\Users\admin\source\repos\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBa
 C:\Users\admin\source\repos\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Hang_hoa.resources
 C:\Users\admin\source\repos\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Nha_Cung_cap.resources
 C:\Users\admin\source\repos\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Nhom_hang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\bin\Debug\QuanLyBanMaytinh.exe.config
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\bin\Debug\QuanLyBanMaytinh.exe
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\bin\Debug\QuanLyBanMaytinh.pdb
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.csproj.AssemblyReference.cache
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.CTHoaDonBanHang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.CTHoaDonNhapHang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Dang_nhap.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Hang_hoa.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.HoaDonBanHang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.HoaDonNhapHang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Khach_hang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Nhan_vien.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Nha_Cung_cap.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Nhom_hang.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Properties.Resources.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.Trang_chu.resources
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.csproj.GenerateResource.cache
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.csproj.CoreCompileInputs.cache
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.exe
+D:\SOFTWARE ENGINEER\Huong_Su_Kien\BTL_HSK\QuanLyBanMaytinh\QuanLyBanMaytinh\QuanLyBanMaytinh\obj\Debug\QuanLyBanMaytinh.pdb
