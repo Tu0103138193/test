@@ -114,6 +114,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\Utils.cs" />
+    <Compile Include="Validate\Validates.cs" />
     <EmbeddedResource Include="CTHoaDonBanHang.resx">
       <DependentUpon>CTHoaDonBanHang.cs</DependentUpon>
     </EmbeddedResource>

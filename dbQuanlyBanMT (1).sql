@@ -168,3 +168,59 @@ VALUES  (234233, N'Nguyễn Văn Tùng ', N'320 Đường Thành - Hà Nội', N
 		(860000, N'Tống Bá Hưng', N'101 Định Công - Hà Nội', N'0369404922'),
 		(911111, N'Tống Văn Tạo', N'Văn Giang - Hưng Yên', N'0369404933'),
 		(932332, N'Nguyễn Danh Tú', N'Chương Mỹ - Hà Nội', N'0369404844')
+
+go
+create proc getAllNhanVien
+as
+begin
+	select [iMaNV], [sTenNV], [sDiachi], [sDienthoai], [dNgaysinh], dNgayvaolam, [sGioitinh] 
+	from [dbo].[tblNhanVien];
+end
+go
+
+create proc insertNhanVien(
+	@iMaNV int ,
+	@sTenNV nvarchar(50), 
+	@sDiachi nvarchar(50), 
+	@sDienthoai nvarchar(50), 
+	@dNgaysinh date, 
+	@dNgayvaolam date, 
+	@sGioitinh nvarchar(50)
+)
+as
+begin
+	insert into [dbo].[tblNhanVien]([iMaNV], [sTenNV], [sDiachi], [sDienthoai], [dNgaysinh], dNgayvaolam, [sGioitinh])
+	values(@iMaNV ,@sTenNV , @sDiachi , @sDienthoai , @dNgaysinh , @dNgayvaolam , @sGioitinh )
+end
+
+go
+create proc DeleteNhanVien
+@maNV int
+as
+begin
+	DELETE FROM [dbo].[tblNhanVien] WHERE iMaNV = @maNV
+end
+go
+
+create proc UpdateNhanVien(
+	@iMaNV int ,
+	@sTenNV nvarchar(50), 
+	@sDiachi nvarchar(50), 
+	@sDienthoai nvarchar(50), 
+	@dNgaysinh date, 
+	@dNgayvaolam date, 
+	@sGioitinh nvarchar(50))
+as
+begin
+	UPDATE [dbo].[tblNhanVien] 
+	SET 
+	iMaNV = @iMaNV,
+	sTenNV = @sTenNV,
+	sDiachi = @sDiachi,
+	sDienthoai = @sDienthoai,
+	dNgaysinh = @dNgaysinh,
+	dNgayvaolam = @dNgayvaolam,
+	sGioitinh = @sGioitinh
+	WHERE iMaNV = @iMaNV;
+end
+go

@@ -15,6 +15,9 @@ namespace QuanLyBanMaytinh.Util
         public static string EditNhanVien = "EditNhanVien";
         public static string ReportNhanVien = "ReportNhanVien";
         public static string SearchNhanVien = "SearchNhanVien";
+        public static string getAllNhanVien = "getAllNhanVien";
 
+        /*Path connect data base*/
+        public static string strConnect = "Data Source=.;Initial Catalog=dbQuanLyBanHang_TBMayTinh;Integrated Security=True";
     }
 }

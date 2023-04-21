@@ -166,6 +166,7 @@ namespace QuanLyBanMaytinh
             // rbtnNam
             // 
             this.rbtnNam.AutoSize = true;
+            this.rbtnNam.Checked = true;
             this.rbtnNam.Location = new System.Drawing.Point(463, 146);
             this.rbtnNam.Name = "rbtnNam";
             this.rbtnNam.Size = new System.Drawing.Size(58, 21);
@@ -181,7 +182,6 @@ namespace QuanLyBanMaytinh
             this.rbtnNu.Name = "rbtnNu";
             this.rbtnNu.Size = new System.Drawing.Size(47, 21);
             this.rbtnNu.TabIndex = 10;
-            this.rbtnNu.TabStop = true;
             this.rbtnNu.Text = "Nữ";
             this.rbtnNu.UseVisualStyleBackColor = true;
             // 
@@ -194,6 +194,7 @@ namespace QuanLyBanMaytinh
             this.gdvNhanvien.RowTemplate.Height = 24;
             this.gdvNhanvien.Size = new System.Drawing.Size(795, 220);
             this.gdvNhanvien.TabIndex = 11;
+            this.gdvNhanvien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gdvNhanvien_CellClick);
             // 
             // btnThem
             // 
@@ -205,6 +206,7 @@ namespace QuanLyBanMaytinh
             this.btnThem.TabIndex = 12;
             this.btnThem.Text = "Thêm";
             this.btnThem.UseVisualStyleBackColor = false;
+            this.btnThem.Click += new System.EventHandler(this.btnThem_Click);
             // 
             // btnSua
             // 
@@ -216,6 +218,7 @@ namespace QuanLyBanMaytinh
             this.btnSua.TabIndex = 12;
             this.btnSua.Text = "Sửa";
             this.btnSua.UseVisualStyleBackColor = false;
+            this.btnSua.Click += new System.EventHandler(this.btnSua_Click);
             // 
             // btnXoa
             // 
@@ -227,6 +230,7 @@ namespace QuanLyBanMaytinh
             this.btnXoa.TabIndex = 12;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.UseVisualStyleBackColor = false;
+            this.btnXoa.Click += new System.EventHandler(this.btnXoa_Click);
             // 
             // btnLammoi
             // 
@@ -238,6 +242,7 @@ namespace QuanLyBanMaytinh
             this.btnLammoi.TabIndex = 12;
             this.btnLammoi.Text = "Làm mới";
             this.btnLammoi.UseVisualStyleBackColor = false;
+            this.btnLammoi.Click += new System.EventHandler(this.btnLammoi_Click);
             // 
             // btnTimkiem
             // 

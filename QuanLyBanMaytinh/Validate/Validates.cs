@@ -8,7 +8,7 @@ namespace QuanLyBanMaytinh.Validate
 {
     class Validates
     {
-        public bool checkEmpty(string strinfo)
+        public static bool checkEmpty(string strinfo)
         {
             if (strinfo.Trim().Equals(""))
                 return false;
