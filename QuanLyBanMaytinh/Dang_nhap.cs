@@ -21,6 +21,7 @@ namespace QuanLyBanMaytinh
         {
             
             Trang_chu trang_Chu = new Trang_chu();
+
             trang_Chu.ShowDialog();
             
         }
